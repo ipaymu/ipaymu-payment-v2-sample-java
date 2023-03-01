@@ -22,9 +22,10 @@ import okhttp3.ResponseBody;
 @SpringBootApplication
 public class Ipaymu {
 
-	public static String VirtualAccount = "0000008159733989";
-	public static String ApiKey = "SANDBOXE33B64DB-C804-4982-9074-77E46CD96179";
-	public static String PayMentUrl = "https://sandbox.ipaymu.com/api/v2/payment";
+	public static String VirtualAccount = "1179000899"; // ipaymu va -> get on your iPaymu dashboard
+	public static String ApiKey = "QbGcoO0Qds9sQFDmY0MWg1Tq.xtuh1"; // ipaymu api key -> get on your iPaymu dashboard
+	public static String PayMentUrl = "https://sandbox.ipaymu.com/api/v2/payment"; // for development mode
+	// public static String PayMentUrl = "https://my.ipaymu.com/api/v2/payment"; // for production mode
 
 	public static void main(String[] args) {
 		doPayMent();
